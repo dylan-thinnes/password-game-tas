@@ -1,0 +1,18 @@
+initial password: He997!0mayXXXVpepsistraw🌔🏋️‍♂️🏋️‍♂️🏋️‍♂️iamloved
+
+Color reloading:
+document.querySelector(".refresh").click(); [...document.querySelector(".rand-color").style.backgroundColor.matchAll("[0-9]+")].flat().map(x => parseInt(x)).reduce((acc, x) => acc * 256 + x).toString(16)
+
+Extract letters/vowels:
+tr '[a-z]' '[A-Z]' | tr -dc 'AIEOUY' | grep -o . | wc -l
+tr '[a-z]' '[A-Z]' | tr -dc '[A-Z]' | grep -o . | wc -l
+
+Get emojis:
+putStrLn $ take 48 $ iterate succ '\x1F600'
+
+List of countries:
+afghanistanalbaniaalgeriaandorraangolaantiguaandbarbudaargentinaarmeniaaustraliaaustriaazerbaijanthebahamasbahrainbangladeshbarbadosbelarusbelgiumbelizebeninbhutanboliviabosniaandherzegovinabotswanabrazilbruneibulgariaburkinafasoburundicaboverdecambodiacamerooncanadacentralafricanrepublicchadchilechinacolombiacomoroscongodemocraticrepublicofthecongorepublicofthecostaricactedivoirecroatiacubacyprusczechrepublicdenmarkdjiboutidominicadominicanrepubliceasttimortimorlesteecuadoregyptelsalvadorequatorialguineaeritreaestoniaeswatiniethiopiafijifinlandfrancegabonthegambiageorgiagermanyghanagreecegrenadaguatemalaguineaguineabissauguyanahaitihondurashungaryicelandindiaindonesiairaniraqirelandisraelitalyjamaicajapanjordankazakhstankenyakiribatikoreanorthkoreasouthkosovokuwaitkyrgyzstanlaoslatvialebanonlesotholiberialibyaliechtensteinlithuanialuxembourgmadagascarmalawimalaysiamaldivesmalimaltamarshallislandsmauritaniamauritiusmexicomicronesiafederatedstatesofmoldovamonacomongoliamontenegromoroccomozambiquemyanmarburmanamibianaurunepalnetherlandsnewzealandnicaraguanigernigerianorthmacedonianorwayomanpakistanpalaupanamapapuanewguineaparaguayperuphilippinespolandportugalqatarromaniarussiarwandasaintkittsandnevissaintluciasaintvincentandthegrenadinessamoasanmarinosaotomeandprincipesaudiarabiasenegalserbiaseychellessierraleonesingaporeslovakiasloveniasolomonislandssomaliasouthafricaspainsrilankasudansudansouthsurinameswedenswitzerlandsyriataiwantajikistantanzaniathailandtogotongatrinidadandtobagotunisiaturkeyturkmenistantuvaluugandaukraineunitedarabemiratesunitedkingdomunitedstatesuruguayuzbekistanvanuatuvaticancityvenezuelavietnamyemenzambiazimbabwe
+
+https://www.youtube.com/watch?v=dpfRA9IALMo
+https://www.youtube.com/watch?v=h4DjKqYX2DI
+https://www.youtube.com/watch?v=TuTxgl2qZTw
