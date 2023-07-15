@@ -1,0 +1,25 @@
+#/usr/bin/env bash
+WINDOW=29368468
+while true; do
+  # Every 3 seconds
+  sleep 3
+
+  # Select all text on firefox window, copy into clipboard
+  xdotool key --clearmodifiers --window $WINDOW ctrl+a key --clearmodifiers --window $WINDOW ctrl+c
+  sleep 0.5
+  xdotool key --clearmodifiers --window $WINDOW Right
+  sleep 0.1
+
+  # read clipboard into VAR
+  VAR=$(xclip -selection clipboard -o)
+  echo "$VAR"
+
+  # grep out how many grubs are at the end of the program
+  GRUBS=$(echo "$VAR" | grep -Eo '🐛+' | grep -o '🐛' | wc -l)
+  echo "$GRUBS"
+
+  # if there are fewer than 5 grubs, add a grub for Paul to eat as a tasty snack
+  if [[ "$GRUBS" -le 4 ]]; then
+    xdotool type --clearmodifiers --window $WINDOW '🐛'
+  fi
+done
